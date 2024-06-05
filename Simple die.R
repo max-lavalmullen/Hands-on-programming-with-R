@@ -12,7 +12,8 @@ roll2 <- function() {
 }
 
 # replicating die rolls and plotting them
-replicate(20, roll2())
+rolypoly <- replicate(10000, roll2())
+qplot(rolypoly, binwidth = 1)
 
 # fun with plotz
 library("ggplot2")
