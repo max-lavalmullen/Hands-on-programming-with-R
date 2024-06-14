@@ -15,3 +15,10 @@ now
 mil <- 1000000
 class(mil) <- c("POSIXct", "POSIXt")
 mil
+
+# understanding factors
+gender <- factor(c("male", "female", "female", "male"))
+typeof(gender)
+attributes(gender)
+unclass(gender)
+gender
