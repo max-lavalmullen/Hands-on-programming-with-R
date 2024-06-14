@@ -7,3 +7,11 @@ hand2 <- c("ace", "spades", "king", "spades", "queen", "spades", "jack",
            "spades", "ten", "spades")
 
 matrix(hand2, ncol = 2, byrow = TRUE)
+
+# understanding time
+now <- Sys.time()
+now
+
+mil <- 1000000
+class(mil) <- c("POSIXct", "POSIXt")
+mil
