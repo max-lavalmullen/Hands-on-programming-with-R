@@ -8,6 +8,12 @@ hand2 <- c("ace", "spades", "king", "spades", "queen", "spades", "jack",
 
 matrix(hand2, ncol = 2, byrow = TRUE)
 
+card <- list("ace", "hearts", 1)
+card
+df <- data.frame(face = c("ace", "two", "six"),  
+                 suit = c("clubs", "clubs", "clubs"), value = c(1, 2, 3))
+df
+
 # understanding time
 now <- Sys.time()
 now
